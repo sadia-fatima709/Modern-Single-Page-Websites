@@ -1,194 +1,251 @@
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8;
-    color: #242321;
-    background-color: white;
+    font-family: Arial, sans-serif;
+    background-color: #F5F7F8;
+    color: #243447;
 }
 
 header {
-    padding: 20px 8%;
-    background-color: white;
-
+    background-color: #17324D;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
 header h2 {
-    text-align: left;
-    color: black;
-    margin: 10px;
+    color: #55D6BE;
+    margin: 3px 0px 16px;
+    text-align: center;
 }
 
 nav {
-    text-align: center;
-    margin: 0px 209px;
-}
-span{
-    color: #c69b7b;
+margin: 1px auto;
 }
 
 nav a {
-    color: #242321;
+    color: white;
     text-decoration: none;
-    margin: 8px ;
+    margin: 15px;
     font-size: 14px;
 }
 
-section {
-    padding: 49px 8%;
+.home {
+    padding: 30px 6%;
+    background-color: #F5F7F8;
 }
 
-h2 {
-    font-size: 30px;
-    line-height: 1.3;
+.intro {
+    width: 55%;
+    padding-right: 25px;
 }
 
-h3 {
-    font-size: 18px;
+.intro h1 {
+    color: #17324D;
+    font-size: 32px;
 }
 
-span {
-    color: #c69b7b;
-}
-
-.line {
-    color: #a77c61;
-    font-size: 11px;
-    letter-spacing: 2px;
-}
-
-.para {
-    font-size: 15px;
-    line-height: 1.8;
-    margin: 15px 0;
-}
-
-.button,.button2,.button3 {
-    display: inline-block;
-    padding: 10px 16px;
-    margin: 10px;
-    border-radius: 25px;
-    text-decoration: none;
-}
-
-.button,.button2 {
-    color: white;
-    background-color: #242321;
-}
-
-.button3 {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
+.intro p {
+    color: #526273;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .hero-image {
-    display: inline-block;
-    width: 60%;
-    max-width: 650px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
-    margin: 0px 1px 10px 199px;
+    border-radius: 200px 0px 80px 90px;
 }
 
-.para1 {
-    font-size: 13px;
-    line-height: 1.8;
-    margin: 15px 0;
-    text-align: right;
+.button {
+    display: inline-block;
+    background-color: #087F8C;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    margin: 8px 5px 0 0;
+    border-radius: 20px;
+    font-size: 12px;
 }
-.project {
+
+.about {
+    padding: 30px 6%;
+    background-color: white;
+}
+.head{
+    text-align: center;
+}
+h2 {
+    color: #087F8C;
+    text-align: center;
+}img{
+     width: 200%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 50px 50px 40px 40px;
+}
+
+.about p {
+    color: #526273;
+    line-height: 1.7;
+    margin: 10px 0px 0px 300px;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.services {
+    padding: 30px 6%;
+    background-color: #E5F3F2;
+}
+
+.service-box {
     width: 100%;
-    max-width: 600px;
-    margin: 25px auto;
-    padding: 15px;
-    border: 1px solid #e5e0da;
-    border-radius: 12px;
-    background-color: #fdfbf8;
+    border-spacing: 15px;
+}
+
+.service-box td {
+    background-color: white;
+    border: 1px solid #C9E3E1;
+    padding: 20px;
+    width: 33.33%;
+    vertical-align: top;
+}
+
+.service-box h3 {
+    color: #17324D;
+    font-size: 18px;
+}
+
+.service-box p {
+    color: #526273;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.work {
+    padding: 30px 6%;
+    background-color: #F5F7F8;
+}
+
+.project {
+    background-color: white;
+    padding: 18px;
+    margin: 15px 0;
 }
 
 .project img {
     width: 100%;
+    max-width: 600px;
     height: auto;
 }
 
 .project h3 {
-    margin-bottom: 5px;
-}
-.para3{
-    text-align: center;
-    font-size: 15px;
-    margin: 0px 150px;
+    color: #17324D;
 }
 
-.service {
-    margin: 15px 0;
-    padding: 15px;
-    border: 1px solid #e5e0da;
-    border-radius: 12px;
-    background-color: #fdfbf8;
+.reviews {
+    padding: 32px 6%;
+    background-color: #E5F3F2;
+    text-align: center;
 }
-.line2{
-    font-weight: bold;
+.line{
+    text-align: center;
 }
-.review {
-    margin: 20px 0;
+
+.reviews h2 {
+    color: #087F8C;
+}
+
+.review-intro {
+    color: #526273;
+    line-height: 1.7;
+}
+
+.review-box {
+    background-color: white;
+    border: 1px solid #C9E3E1;
     padding: 20px;
-    border: 1px solid #e5e0da;
-    border-radius: 12px;
-    background-color: #fdfbf8;
+    margin: 20px 0;
+    text-align: left;
 }
-.head1{
-    text-align: center;
-    font-size: 40px;
-}
-.para4{
-    text-align: center;
-    font-size: 17px;
-    margin: 0px 150px 20px;
-}
-.about-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin: 0px 400px 0px 0px;
-}#head{
-    font-size: 40px;
-    margin: 0px 40px;
 
-}.para2{
-margin: 2px 40px;
+.review-box h3 {
+    color: #087F8C;
 }
-.point{
-margin: 2px 40px;
+
+.review-box h4 {
+    color: #17324D;
 }
-.head2{
-    font-size: 80px;
-    line-height: 1.2;
-    margin: 15px 0;
-    font-weight: lighter;
+
+.review-box p {
+    color: #526273;
+    line-height: 1.7;
 }
+
+
+.contact {
+    padding: 35px 6%;
+    background-color: #E5F3F2;
+}
+
+.contact p {
+    color: #526273;
+    line-height: 1.7;
+}
+
 #contact {
+    background-color: #F5F7F8;
+    color: #17324D;
     text-align: center;
-    color: white;
-    background-color: #282725;
+    padding: 40px;
 }
 
-#contact .para {
-    color: white;
+#contact h2 {
+    color: #087F8C;
+    font-size: 32px;
 }
+
+#contact p {
+    font-size: 16px;
+}
+
+#contact form {
+    padding: 25px;
+    width: 60%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#contact input,
+#contact textarea {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #17324D;
+    font-size: 15px;
+}
+
+#contact button {
+    background-color: #087F8C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+}
+
 
 footer {
-    padding: 10px;
-    text-align: center;
+    background-color: #17324D;
     color: white;
-    background-color: #171716;
+    text-align: center;
+    padding: 1px;
 }
 
-footer a {
-    color: white;
-    text-decoration: none;
+footer h2 {
+    color: #55D6BE;
+}
+
+footer p {
+    font-size: 13px;
 }
